@@ -1,37 +1,51 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 
-# Virtual Environment
+# Ambientes virtuais
 .venv/
 venv/
 env/
+ENV/
 
-# Environment Variables
+# Variáveis de ambiente e segredos
 .env
-.env.*
 !.env.example
 
-# IDEs
+# IDEs e editores
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Testing
+# Testes e cobertura
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
+coverage.xml
 
-# Logs
+# Logs e temporários
 *.log
+*.tmp
+*.temp
 
-# OS
+# Vector stores
+storage/chroma/
+vector_store/
+
+# Modelos de embedding
+models/
+
+# Build e distribuição
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Sistema operacional
 .DS_Store
 Thumbs.db
-
-# Private Data
-data/private/
-
-# Generated RAG artifacts
-storage/
-vector_store/
+desktop.ini
