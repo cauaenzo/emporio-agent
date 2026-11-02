@@ -422,3 +422,9 @@ The pre-built index (`storage/faiss/policies.index` and `storage/faiss/chunks.js
 ### How data is loaded
 
 `app/config.py` resolves `DATA_DIR` from the `DATA_DIR` environment variable (defaulting to `data/private`) and constructs the full path for each file. To use a different data directory, set `DATA_DIR` in `.env` before starting the application.
+---
+
+## References
+
+- [An Analysis of Fusion Functions for Hybrid Retrieval (2022)](https://arxiv.org/pdf/2210.11934)
+- [Dense vs Sparse Retrieval: Mastering FAISS, BM25, and Hybrid Search](https://dev.to/fagundesv/dense-vs-sparse-retrieval-mastering-faiss-bm25-and-hybrid-search-4kb1)
